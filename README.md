@@ -10,3 +10,10 @@
   - Rigorous convergence rates of STSyn are provided with _nonconvex_ objectives, both for _homogeneous_ and _heteregeneous_ data distributions.
   - Simulation results are provided to validate the superiority of our algorithm.
   - Impact of system hyper-parameters is also investigated.
+## Illustration of STSyn
+
+  ![image](https://github.com/user-attachments/assets/7200d0f8-7506-41d2-a271-24444ab4a79c)
+  
+In this figure, we assume a total of 4 workers. We ask each one of them to perform 3 local updates and the server waits for the third fast worker to at least complete 3 local updates. As illustrated, the red arrows represent the additional local updates performed by the fastest 2 workers, and the arrows in light blue represent the straggling updates that are cancelled.
+## Analysis
+
