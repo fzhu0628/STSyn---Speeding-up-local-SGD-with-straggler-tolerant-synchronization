@@ -14,6 +14,6 @@
 
   ![image](https://github.com/user-attachments/assets/7200d0f8-7506-41d2-a271-24444ab4a79c)
   
-In this figure, we assume a total of 4 workers. We ask each one of them to perform 3 local updates and the server waits for the third fast worker to at least complete 3 local updates. As illustrated, the red arrows represent the additional local updates performed by the fastest 2 workers, and the arrows in light blue represent the straggling updates that are cancelled.
+Illustration of STSyn with $M=4$, $U=3$ and $K=3$. In round 0, workers 1, 2, and 3 are the fastest $K=3$ workers that have completed $U=3$ local updates; the red arrows represent the additional local updates performed by the fastest $K-1=2$ workers; and the arrows in light blue represent the straggling updates that are cancelled.
 ## Analysis
 
