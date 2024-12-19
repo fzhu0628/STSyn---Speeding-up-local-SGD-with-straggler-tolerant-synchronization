@@ -39,3 +39,4 @@ Under smoothness, lower boundedness, unbiasedness and variance boundedness, we p
 ## Simulation Results
 ![image](https://github.com/user-attachments/assets/b7ab638e-323a-4903-a249-c35583e1c198)
 Numerical experiments substantiate our claim that the STSyn algorithm achieves superiority in time and commmunication efficiency both under i.i.d. and non-i.i.d. data distributions among workers.
+## Codes
